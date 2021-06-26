@@ -2,6 +2,8 @@ from selenium import webdriver
 import time
 import json
 import numpy as np
+import pandas as pd
+import math
 
 
 def get_article_info(driver):
@@ -74,6 +76,8 @@ def save_papers(number_of_papers):
                 if "https://academic.microsoft.com/paper/{}".format(ref_id) not in url_Queue:
                     url_Queue.append("https://academic.microsoft.com/paper/{}".format(ref_id))
         i += 1
+        if i % 10 == 0:
+            print("{} papers crawled".format(i))
 
     with open('CrawledPapers.json', 'w') as outfile:
         json.dump(pages_info, outfile)
@@ -156,14 +160,52 @@ def cal_hits_top_writers(n, papers_file):
     return sorted(authorities.items(), key=lambda x: x[1], reverse=True)[:n]
 
 
+def recommend_paper(user_profile, papers_profiles):
+    scores = {}
+    valid_user_profile = sum(user_profile) != 0
+    for paper_id in papers_profiles:
+        if not valid_user_profile or sum(papers_profiles[paper_id]) == 0:
+            scores[paper_id] = 0
+            continue
+        norm_factor = np.linalg.norm(user_profile, 2) * np.linalg.norm(papers_profiles[paper_id], 2)
+        scores[paper_id] = user_profile.reshape((1, -1)).dot(
+            papers_profiles[paper_id].reshape(-1, 1))[0, 0] / norm_factor
+
+    # return sorted(scores.items(), key = lambda x: x[1], reverse = True)[:10]
+    return [i[0] for i in sorted(scores.items(), key=lambda x: x[1], reverse=True)[:10]]
+
+
+def cal_papers_profiles(papers_data, topics):
+    papers_profiles = {}
+    for paper in papers_data:
+        vec = np.zeros(len(topics))
+        for i in range(len(topics)):
+            for topic in paper["related_topics"]:
+                if topic.lower() == topics[i].lower():
+                    vec[i] = 1
+        papers_profiles[paper["id"]] = vec
+    return papers_profiles
+
+
+papers_file_name = "content.json"
+
 # save_papers(10)
 
 
-# with open("content.json", "r") as f:
+# with open(papers_file_name, "r") as f:
 #     page_rank_file = save_page_rank(0.5, f)
+#     f.close()
 
+# with open(papers_file_name, "r") as f:
+#     top_writers = cal_hits_top_writers(10, f)
+#     print(top_writers)
+#     f.close()
+#     problem with writer with '' name!
 
-with open("content.json", "r") as f:
-    top_writers = cal_hits_top_writers(10, f)
-    print(top_writers)
-    # problem with writer with '' name!
+# user_profiles = pd.read_csv("data.csv")
+# user_profiles.fillna(0, inplace=True)
+# topics = list(user_profiles.columns)
+# with open(papers_file_name, "r") as f:
+#     papers_profiles = cal_papers_profiles(json.load(f), topics)
+#     f.close()
+# print(recommend_paper(np.array(user_profiles.loc[1, :]), papers_profiles))

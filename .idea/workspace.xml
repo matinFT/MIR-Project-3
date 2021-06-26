@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96577644-7ed5-4926-897b-a8bedf915a0a" name="Default Changelist" comment="" />
+    <list default="true" id="96577644-7ed5-4926-897b-a8bedf915a0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/pr3-97106143-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/pr3-97106143-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pr3-97106143.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pr3-97106143.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selen.py" beforeDir="false" afterPath="$PROJECT_DIR$/selen.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,23 +18,25 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MIR_P3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624636635854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MIR_P3$quotes.coverage" NAME="quotes Coverage Results" MODIFIED="1624046264068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling/crawling/spiders" />
+    <SUITE FILE_PATH="coverage/MIR_Project_3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624695013695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+            <state relative-caret-position="419">
+              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <element signature="e#110#1525#0" />
                 <element signature="e#1563#1845#0" />
-                <element signature="e#1887#3002#0" />
                 <element signature="e#3058#3351#0" />
                 <element signature="e#3398#4110#0" />
                 <element signature="e#4176#4766#0" />
-                <element signature="e#4810#5726#0" />
+                <element signature="e#4815#5731#0" />
+                <element signature="e#5790#5954#0" />
+                <element signature="e#6501#7029#0" />
               </folding>
             </state>
           </provider>
@@ -47,6 +56,9 @@
       <find>pipelin</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -63,23 +75,14 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MIR_P3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MIR_P3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,22 +178,25 @@
       <workItem from="1624543829402" duration="4629000" />
       <workItem from="1624615394136" duration="2399000" />
       <workItem from="1624628286325" duration="1118000" />
+      <workItem from="1624637415490" duration="688000" />
+      <workItem from="1624650271538" duration="732000" />
+      <workItem from="1624686623090" duration="5463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28514000" />
+    <option name="totallyTimeSpent" value="35397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16435432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16915688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20386267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19011815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,17 +251,18 @@
     <entry file="file://$PROJECT_DIR$/crawling/scrapy.cfg" />
     <entry file="file://$PROJECT_DIR$/selen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+        <state relative-caret-position="419">
+          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <element signature="e#110#1525#0" />
             <element signature="e#1563#1845#0" />
-            <element signature="e#1887#3002#0" />
             <element signature="e#3058#3351#0" />
             <element signature="e#3398#4110#0" />
             <element signature="e#4176#4766#0" />
-            <element signature="e#4810#5726#0" />
+            <element signature="e#4815#5731#0" />
+            <element signature="e#5790#5954#0" />
+            <element signature="e#6501#7029#0" />
           </folding>
         </state>
       </provider>
