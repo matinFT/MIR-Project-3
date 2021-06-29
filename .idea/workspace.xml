@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96577644-7ed5-4926-897b-a8bedf915a0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/pr3-97106143-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/pr3-97106143-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pr3-97106143.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pr3-97106143.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selen.py" beforeDir="false" afterPath="$PROJECT_DIR$/selen.py" afterDir="false" />
     </list>
@@ -18,25 +16,43 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MIR_P3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624636635854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MIR_P3$quotes.coverage" NAME="quotes Coverage Results" MODIFIED="1624046264068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling/crawling/spiders" />
-    <SUITE FILE_PATH="coverage/MIR_Project_3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624695013695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MIR_Project_3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624956226930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+            <state relative-caret-position="330">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#110#1525#0" />
-                <element signature="e#1563#1845#0" />
-                <element signature="e#3058#3351#0" />
-                <element signature="e#3398#4110#0" />
-                <element signature="e#4176#4766#0" />
-                <element signature="e#4815#5731#0" />
-                <element signature="e#5790#5954#0" />
-                <element signature="e#6501#7029#0" />
+                <element signature="e#199#1666#0" />
+                <element signature="e#1651#1933#0" />
+                <element signature="e#1981#4074#0" />
+                <element signature="e#1987#2347#0" />
+                <element signature="e#4048#4341#0" />
+                <element signature="e#4154#4319#0" />
+                <element signature="e#4227#4319#0" />
+                <element signature="e#4388#5100#0" />
+                <element signature="e#4726#4829#0" />
+                <element signature="e#5166#5756#0" />
+                <element signature="e#5290#5726#0" />
+                <element signature="e#5424#5726#0" />
+                <element signature="e#5451#5726#0" />
+                <element signature="e#5504#5726#0" />
+                <element signature="e#5609#5726#0" />
+                <element signature="e#5805#6721#0" />
+                <element signature="e#5906#6049#0" />
+                <element signature="e#5950#6049#0" />
+                <element signature="e#6246#6563#0" />
+                <element signature="e#6780#7410#0" />
+                <element signature="e#6885#7241#0" />
+                <element signature="e#6963#7004#0" />
+                <element signature="e#7463#7792#0" />
+                <element signature="e#7522#7765#0" />
+                <element signature="e#7599#7722#0" />
+                <element signature="e#7653#7722#0" />
+                <element signature="e#7850#7890#0" />
               </folding>
             </state>
           </provider>
@@ -70,10 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="255" />
-    <option name="y" value="56" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1279" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,32 +197,43 @@
       <workItem from="1624637415490" duration="688000" />
       <workItem from="1624650271538" duration="732000" />
       <workItem from="1624686623090" duration="5463000" />
+      <workItem from="1624818653457" duration="2082000" />
+      <workItem from="1624884803884" duration="12192000" />
+      <workItem from="1624950025684" duration="10791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35397000" />
+    <option name="totallyTimeSpent" value="60462000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16915688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17395945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19011815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24812031" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32975295" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32975295" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.51287556" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5123523" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32975295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -249,20 +276,52 @@
     <entry file="file://$PROJECT_DIR$/crawling/crawling/settings.py" />
     <entry file="file://$PROJECT_DIR$/crawling/crawling/spiders/quotes.py" />
     <entry file="file://$PROJECT_DIR$/crawling/scrapy.cfg" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/third_party/thriftpy/_shaded_ply/yacc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2826">
+          <caret line="1105" selection-start-line="1105" selection-end-line="1105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevconsole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/selen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="330">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#110#1525#0" />
-            <element signature="e#1563#1845#0" />
-            <element signature="e#3058#3351#0" />
-            <element signature="e#3398#4110#0" />
-            <element signature="e#4176#4766#0" />
-            <element signature="e#4815#5731#0" />
-            <element signature="e#5790#5954#0" />
-            <element signature="e#6501#7029#0" />
+            <element signature="e#199#1666#0" />
+            <element signature="e#1651#1933#0" />
+            <element signature="e#1981#4074#0" />
+            <element signature="e#1987#2347#0" />
+            <element signature="e#4048#4341#0" />
+            <element signature="e#4154#4319#0" />
+            <element signature="e#4227#4319#0" />
+            <element signature="e#4388#5100#0" />
+            <element signature="e#4726#4829#0" />
+            <element signature="e#5166#5756#0" />
+            <element signature="e#5290#5726#0" />
+            <element signature="e#5424#5726#0" />
+            <element signature="e#5451#5726#0" />
+            <element signature="e#5504#5726#0" />
+            <element signature="e#5609#5726#0" />
+            <element signature="e#5805#6721#0" />
+            <element signature="e#5906#6049#0" />
+            <element signature="e#5950#6049#0" />
+            <element signature="e#6246#6563#0" />
+            <element signature="e#6780#7410#0" />
+            <element signature="e#6885#7241#0" />
+            <element signature="e#6963#7004#0" />
+            <element signature="e#7463#7792#0" />
+            <element signature="e#7522#7765#0" />
+            <element signature="e#7599#7722#0" />
+            <element signature="e#7653#7722#0" />
+            <element signature="e#7850#7890#0" />
           </folding>
         </state>
       </provider>

@@ -4,6 +4,7 @@ import json
 import numpy as np
 import pandas as pd
 import math
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 def get_article_info(driver):
@@ -25,7 +26,8 @@ def get_article_info(driver):
                                                   "div.au-target > div.authors").text.split(" , ")
     info["authors"] = authors
 
-    click_button_element = driver.find_element_by_css_selector("div.name-section > div.topics > ma-tag-cloud > div > div.show-more")
+    click_button_element = driver.find_element_by_css_selector(
+        "div.name-section > div.topics > ma-tag-cloud > div > div.show-more")
     driver.execute_script("arguments[0].click();", click_button_element)
     time.sleep(1)
     topics = driver.find_elements_by_css_selector("div.name-section > div.topics > ma-tag-cloud > div > ma-link-tag")
@@ -37,7 +39,7 @@ def get_article_info(driver):
     info["references"] = []
     reference_ids = get_reference_ids(driver)
     for ref_id in reference_ids:
-            info["references"].append(ref_id)
+        info["references"].append(ref_id)
     return info
 
 
@@ -61,22 +63,42 @@ def save_papers(number_of_papers):
     ]
     crawled_ids = []
     driver = webdriver.Firefox()
+    # driver = webdriver.Chrome(executable_path='E:\Downloads\Compressed\chromedriver.exe')
     pages_info = []
     i = 0
     while url_Queue and i < number_of_papers:
         current_page = url_Queue.pop(0)
-        driver.get(current_page)
-        time.sleep(2)
-        # time.sleep(4)
-        page_info = get_article_info(driver)
-        pages_info.append(page_info)
-        ref_ids = page_info["references"]
-        for ref_id in ref_ids:
-            if ref_id not in crawled_ids:
-                if "https://academic.microsoft.com/paper/{}".format(ref_id) not in url_Queue:
-                    url_Queue.append("https://academic.microsoft.com/paper/{}".format(ref_id))
-        i += 1
-        if i % 10 == 0:
+        for j in range(2):
+            try:
+                driver.get(current_page)
+                time.sleep(3)
+                for x in range(2):
+                    try:
+                        page_info = get_article_info(driver)  # get article info has 1 second delay in it
+                        pages_info.append(page_info)
+                        ref_ids = page_info["references"]
+                        current_page_id = current_page.split("/")[4]
+                        for ref_id in ref_ids:
+                            if ref_id not in crawled_ids and ref_id != current_page_id:
+                                if "https://academic.microsoft.com/paper/{}".format(ref_id) not in url_Queue:
+                                    url_Queue.append("https://academic.microsoft.com/paper/{}".format(ref_id))
+                        i += 1
+                        crawled_ids.append(current_page_id)
+                        break
+
+                    except:
+                        if x == 1:
+                            # print("error in get info")
+                            raise Exception()
+                        time.sleep(1)
+                break
+
+            except:
+                if j == 1:
+                    print("couldn't crawl ", current_page)
+                pass
+
+        if i % 5 == 0:
             print("{} papers crawled".format(i))
 
     with open('CrawledPapers.json', 'w') as outfile:
@@ -189,8 +211,7 @@ def cal_papers_profiles(papers_data, topics):
 
 papers_file_name = "content.json"
 
-# save_papers(10)
-
+save_papers(2000)
 
 # with open(papers_file_name, "r") as f:
 #     page_rank_file = save_page_rank(0.5, f)
