@@ -119,3 +119,36 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 1624964463838	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
 1624964464270	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
 1624964464659	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1624968631887	Marionette	INFO	Stopped listening on port 62619
+1625123259300	geckodriver	INFO	Listening on 127.0.0.1:65364
+1625123259854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile8FqTal"
+1625126199517	geckodriver	INFO	Listening on 127.0.0.1:63182
+1625126200049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile0bhC9y"
+1625126201529	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile0bhC9y\\search.json.mozlz4", (void 0)))
+1625126204898	Marionette	INFO	Listening on port 56068
+1625126205419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625126449767	geckodriver	INFO	Listening on 127.0.0.1:53987
+1625126450357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileMMwt1U"
+1625126451842	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileMMwt1U\\search.json.mozlz4", (void 0)))
+1625126454678	Marionette	INFO	Listening on port 64498
+1625126455213	Marionette	WARN	TLS certificate errors will be ignored for this session
+1625126691735	geckodriver	INFO	Listening on 127.0.0.1:61703
+1625126692313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile3d1dHT"
+1625126693800	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile3d1dHT\\search.json.mozlz4", (void 0)))
+1625126696872	Marionette	INFO	Listening on port 61708
+1625126697160	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1625138014027	Marionette	INFO	Stopped listening on port 61708
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625148454904	geckodriver	INFO	Listening on 127.0.0.1:50291
+1625148454985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilehikhfh"
+1625148456624	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilehikhfh\\search.json.mozlz4", (void 0)))
+1625148459666	Marionette	INFO	Listening on port 50296
+1625148459838	Marionette	WARN	TLS certificate errors will be ignored for this session

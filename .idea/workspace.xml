@@ -4,8 +4,12 @@
     <list default="true" id="96577644-7ed5-4926-897b-a8bedf915a0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/pr3-97106143-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/pr3-97106143-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrawledPapers.json" beforeDir="false" afterPath="$PROJECT_DIR$/CrawledPapers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageRank.json" beforeDir="false" afterPath="$PROJECT_DIR$/PageRank.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pr3-97106143.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pr3-97106143.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selen.py" beforeDir="false" afterPath="$PROJECT_DIR$/selen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selen.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,49 +20,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MIR_P3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624636635854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MIR_P3$quotes.coverage" NAME="quotes Coverage Results" MODIFIED="1624046264068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawling/crawling/spiders" />
-    <SUITE FILE_PATH="coverage/MIR_Project_3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1624956226930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MIR_Project_3$selen.coverage" NAME="selen Coverage Results" MODIFIED="1625148381877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-              <folding>
-                <element signature="e#199#1666#0" />
-                <element signature="e#1651#1933#0" />
-                <element signature="e#1981#4074#0" />
-                <element signature="e#1987#2347#0" />
-                <element signature="e#4048#4341#0" />
-                <element signature="e#4154#4319#0" />
-                <element signature="e#4227#4319#0" />
-                <element signature="e#4388#5100#0" />
-                <element signature="e#4726#4829#0" />
-                <element signature="e#5166#5756#0" />
-                <element signature="e#5290#5726#0" />
-                <element signature="e#5424#5726#0" />
-                <element signature="e#5451#5726#0" />
-                <element signature="e#5504#5726#0" />
-                <element signature="e#5609#5726#0" />
-                <element signature="e#5805#6721#0" />
-                <element signature="e#5906#6049#0" />
-                <element signature="e#5950#6049#0" />
-                <element signature="e#6246#6563#0" />
-                <element signature="e#6780#7410#0" />
-                <element signature="e#6885#7241#0" />
-                <element signature="e#6963#7004#0" />
-                <element signature="e#7463#7792#0" />
-                <element signature="e#7522#7765#0" />
-                <element signature="e#7599#7722#0" />
-                <element signature="e#7653#7722#0" />
-                <element signature="e#7850#7890#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +35,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pipelin</find>
+      <find>user_prof</find>
+      <find>user_profile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,10 +53,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1279" />
-    <option name="height" value="1057" />
+    <option name="x" value="255" />
+    <option name="y" value="57" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,7 +70,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Market/pytorch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -200,11 +167,14 @@
       <workItem from="1624818653457" duration="2082000" />
       <workItem from="1624884803884" duration="12192000" />
       <workItem from="1624950025684" duration="10791000" />
+      <workItem from="1624984310837" duration="367000" />
+      <workItem from="1625123039592" duration="13343000" />
+      <workItem from="1625754630826" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60462000" />
+    <option name="totallyTimeSpent" value="74787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,12 +188,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17395945" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18036287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24812031" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15789473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,38 +260,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1966571538/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="5315" column="8" selection-start-line="5315" selection-start-column="8" selection-end-line="5315" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/selen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="617">
+          <caret line="262" column="39" selection-start-line="262" selection-start-column="39" selection-end-line="262" selection-end-column="39" />
           <folding>
-            <element signature="e#199#1666#0" />
-            <element signature="e#1651#1933#0" />
-            <element signature="e#1981#4074#0" />
-            <element signature="e#1987#2347#0" />
-            <element signature="e#4048#4341#0" />
-            <element signature="e#4154#4319#0" />
-            <element signature="e#4227#4319#0" />
-            <element signature="e#4388#5100#0" />
-            <element signature="e#4726#4829#0" />
-            <element signature="e#5166#5756#0" />
-            <element signature="e#5290#5726#0" />
-            <element signature="e#5424#5726#0" />
-            <element signature="e#5451#5726#0" />
-            <element signature="e#5504#5726#0" />
-            <element signature="e#5609#5726#0" />
-            <element signature="e#5805#6721#0" />
-            <element signature="e#5906#6049#0" />
-            <element signature="e#5950#6049#0" />
-            <element signature="e#6246#6563#0" />
-            <element signature="e#6780#7410#0" />
-            <element signature="e#6885#7241#0" />
-            <element signature="e#6963#7004#0" />
-            <element signature="e#7463#7792#0" />
-            <element signature="e#7522#7765#0" />
-            <element signature="e#7599#7722#0" />
-            <element signature="e#7653#7722#0" />
-            <element signature="e#7850#7890#0" />
+            <element signature="e#8162#8292#0" />
           </folding>
         </state>
       </provider>
